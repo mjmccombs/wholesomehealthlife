@@ -13,6 +13,17 @@ body {
 .section2 {
 	background-color: #f9f9f9;
 }
+
+ul {
+	height: 120px;
+	margin: 0;
+}
+
+.small_navigation_container {
+	position: relative;
+	text-align: center;
+	top: 70%;
+}
 .nav-container {
 	border-bottom: 1px solid rgb(219, 219, 219);
 	list-style-type: none;
@@ -22,9 +33,6 @@ body {
 	text-decoration: none;
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	top: 0;
-	width: 80%;
-	align-self: center;
 }
 li {
 	display: inline;
@@ -72,7 +80,7 @@ li a:hover {
 }
 .inline-block {
 	display: inline-block;
-	padding-right: 2.5%;
+	padding-right: 1.5%;
 }
 
 .intro_descriptor {
@@ -86,15 +94,12 @@ li a:hover {
 	padding-bottom: 1%;
 }
 
-.twitchIntro {
-	padding-top: 4%;
-	font-family: "Hind", sans-serif;
-	letter-spacing: 0.016666666666666666rem;
-	color: rgb(77, 77, 77);
+.twitch_container {
+	display: inline;
+	padding-right: 1.5%;
 }
+
 .twitchImage {
-	position: relative;
-	top: 4px;
 	height: 7%;
 	width: 7%;
 }
