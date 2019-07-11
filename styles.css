@@ -23,12 +23,6 @@ body {
 	display: flex;
 }
 
-.leftside,
-.rightside {
-	height: 100vh;
-	width: 100%;
-}
-
 .siteTitle {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
@@ -40,13 +34,162 @@ body {
 	body {
 		background-color: lightslategray;
 		text-align: center;
-		margin-right: 10%;
-		margin-left: 10%;
 		align-self: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
+	}
+	.row {
+		border-bottom: 1px solid rgb(219, 219, 219);
+		display: flex;
+	}
+
+	.leftside,
+	.rightside {
+		height: 100vh;
+		width: 100%;
+	}
+
+	.siteTitle {
+		font-family: "Montserrat", sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 15px;
+		font-size: 100%;
+	}
+	.section1 {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.section2 {
+		background-color: #f9f9f9;
+	}
+
+	ul {
+		height: 120px;
+		margin: 0;
+	}
+
+	.nav-container {
+		border-bottom: 1px solid rgb(219, 219, 219);
+		list-style-type: none;
+		overflow: hidden;
+		color: black;
+
+		text-decoration: none;
+		position: -webkit-sticky; /* Safari */
+		position: sticky;
+	}
+
+	.flexNavContainer {
+		align-content: center;
+		position: relative;
+	}
+
+	.small_navigation_container {
+		position: relative;
+	}
+	li {
+		display: inline;
+		font-family: "Montserrat", sans-serif;
+		padding-right: 1%;
+		font-size: 85%;
+	}
+
+	li a {
+		text-decoration: none;
+		font-family: "Hind", sans-serif;
+		color: rgb(77, 77, 77);
+		line-height: 1rem;
+		letter-spacing: 1px;
+	}
+
+	li a:hover {
+		color: rgb(92, 92, 92);
+	}
+
+	.introText {
+		font-size: 500%;
+		padding-top: 3%;
+		padding-bottom: 0.5%;
+		font-family: "Hind", sans-serif;
+		font-weight: 500;
+		font-style: bold;
+		color: rgb(0, 0, 0);
+	}
+
+	.introText2 {
+		font-family: "Hind", sans-serif;
+		font-style: normal;
+		letter-spacing: 0.016666666666666666rem;
+		color: rgb(77, 77, 77);
+		padding-bottom: 2%;
+	}
+
+	.profilePicture {
+		align-self: center;
+		height: auto;
+		max-width: 100%;
+		padding-bottom: 2%;
+	}
+	.inline-block {
+		display: inline-block;
+		padding-right: 1.5%;
+		padding-left: 1.5%;
+	}
+
+	.intro_descriptor {
+		font-family: "Hind", sans-serif;
+		font-style: italic;
+		padding-bottom: 1.5%;
+	}
+
+	.largetext {
+		font-size: 300%;
+		padding-bottom: 1%;
+	}
+
+	.twitch_container {
+		display: inline;
+		padding-right: 1.5%;
+	}
+
+	.twitchImage {
+		height: 7%;
+		width: 7%;
+	}
+
+	.socialMediaIcons {
+		padding-top: 10%;
+	}
+
+	.newSectionText {
+		top: 90px;
+		position: relative;
+		font-size: 90%;
+		line-height: 1.1111111111111112rem;
+		letter-spacing: 0.12222222222222223rem;
+		font-family: "Hind", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		height: 200px;
+	}
+
+	.leftside2,
+	.rightside2 {
+		height: 100vh;
+		width: 100%;
+	}
+
+	.socialMediaIcons2 {
+		height: 500px;
+		top: 150%;
+		border-bottom: 1px solid rgb(219, 219, 219);
+	}
+
+	.smallerBrussels {
+		width: 666.6px;
 	}
 }
 
@@ -165,8 +308,8 @@ li a:hover {
 
 .profilePicture {
 	align-self: center;
-	height: 500px;
-	width: 500px;
+	height: auto;
+	width: 100%;
 	padding-bottom: 2%;
 }
 .inline-block {
@@ -179,11 +322,6 @@ li a:hover {
 	font-family: "Hind", sans-serif;
 	font-style: italic;
 	padding-bottom: 1.5%;
-}
-
-.largetext {
-	font-size: 300%;
-	padding-bottom: 1%;
 }
 
 .twitch_container {
@@ -214,7 +352,7 @@ li a:hover {
 
 .leftside2,
 .rightside2 {
-	height: 80vh;
+	height: 100vh;
 	width: 100%;
 }
 
