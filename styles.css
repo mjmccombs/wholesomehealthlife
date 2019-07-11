@@ -39,25 +39,49 @@ body {
 @media only screen and (min-width: 70px) {
 	body {
 		background-color: lightgoldenrodyellow;
+		text-align: center;
+		margin-right: 10%;
+		margin-left: 10%;
+		align-self: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 	}
+
+	/* .leftside2 {
+		background-color: lightgoldenrodyellow;
+	}
+	.rightside2 {
+		background-color: lightgoldenrodyellow;
+	} */
 }
 
 @media only screen and (min-width: 800px) {
 	body {
 		background-color: lightgreen;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.leftside,
-	.rightside {
-		height: 100vh;
+		text-align: center;
+		margin-right: 10%;
+		margin-left: 10%;
+		align-self: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
 @media only screen and (min-width: 1000px) {
 	body {
 		background-color: lightseagreen;
+		text-align: center;
+		margin-right: 10%;
+		margin-left: 10%;
+		align-self: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 	}
 }
 .section1 {
@@ -185,13 +209,6 @@ li a:hover {
 .rightside2 {
 	height: 80vh;
 	width: 100%;
-}
-
-.leftside2 {
-	background: white;
-}
-.rightside2 {
-	background: white;
 }
 
 .socialMediaIcons2 {
