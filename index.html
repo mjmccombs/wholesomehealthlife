@@ -6,32 +6,115 @@
 			href="https://fonts.googleapis.com/css?family=Hind"
 			rel="stylesheet"
 		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
 		<link rel="stylesheet" href="./styles.css" />
 		<script async src="./javascript/index.js"></script>
 	</head>
 	<body>
 		<ul class="nav-container">
-			<div class="small_navigation_container">
-				<li><a href="default.asp">Social</a></li>
-				<li><a href="news.asp">Software</a></li>
-				<li><a href="./blog/index.html">Blog</a></li>
-				<li><a href="./blog/">Contact Me</a></li>
+			<div class="flexNavContainer">
+				<div class="siteTitle">Nomadic Solutions</div>
+				<div class="small_navigation_container">
+					<li><a href="#social">Social</a></li>
+					<li><a href="#social">Software</a></li>
+					<li><a href="#social">Contact</a></li>
+				</div>
 			</div>
 		</ul>
-		<div class="section1">
-			<div class="introText">
-				Hi, I'm Matt.
+
+		<div class="row no-gutters">
+			<div class="col-md-6 no-gutters">
+				<div
+					class="leftside d-flex justify-content-center align-items-center"
+				>
+					<div class="section1">
+						<div class="introText">
+							Hi, I'm Matt.
+						</div>
+						<div class="introText2">
+							<br />
+							I'm the founder of Nomadic Solutions, a software and
+							marketing company focused on improving the world
+							with high-quality code and high-quality social media
+							content.
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="introText2">
-				And I do my best to create good social media content.
+
+			<div class="col-md-6 no-gutters">
+				<div
+					class="rightside d-flex justify-content-center align-items-center"
+				>
+					<img
+						class="profilePicture"
+						src="./images/croppedProfilePicture.png"
+					/>
+				</div>
 			</div>
-		</div>
-		<img class="freshPrinceGif" src="./images/freshPrince.gif" />
-		<div class="intro_descriptor">
-			Take a look. Mwuah!
 		</div>
 
-		<div class="socialMediaIcons">
+		<div class="newSectionText">RECENT WORK</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div
+					class="leftside2 d-flex justify-content-center align-items-center"
+				>
+					<div class="section1">
+						<a
+							href="http://clevelandroomsforrent.netlify.com"
+							target="_blank"
+						>
+							<img
+								class="profilePicture"
+								src="./images/clevelandRooms.png"
+							/>
+						</a>
+						<div class="introText2">
+							<br />
+							Rent rooms with ease with Cleveland Rooms For Rent
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div
+					class="rightside2 d-flex justify-content-center align-items-center"
+				>
+					<div class="section1">
+						<a
+							href="http://www.crestpropertiesllc.com"
+							target="_blank"
+						>
+							<img
+								class="profilePicture"
+								src="./images/crestproperties.png"
+							/>
+						</a>
+						<div class="introText2">
+							<br />
+							Crest Properties reveals local, affordable, high
+							quality housing
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="socialMediaIcons" id="social">
 			<div class="inline-block">
 				<a
 					href="https://www.youtube.com/channel/UCuoidQwyY0YTH8kY1lCDgAA"
@@ -69,6 +152,21 @@
 					target="_blank"
 					><img src="./images/pinterest.svg"
 				/></a>
+			</div>
+		</div>
+		<div class="newSectionText">RECENT POSTS</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div
+					class="rightside2 d-flex justify-content-center align-items-center"
+				></div>
+			</div>
+			<div class="col-md-6">
+				<div
+					class="leftside2 d-flex justify-content-center align-items-center"
+				>
+					<img class="profilePicture" src="./images/runningMan.png" />
+				</div>
 			</div>
 		</div>
 	</body>
