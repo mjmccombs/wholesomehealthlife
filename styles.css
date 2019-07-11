@@ -2,6 +2,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+[class*="col-"] {
+	width: 100%;
+}
+
 body {
 	text-align: center;
 	background-color: white;
@@ -32,6 +36,18 @@ body {
 	font-size: 150%;
 }
 
+@media only screen and (min-width: 70px) {
+	body {
+		background-color: lightgoldenrodyellow;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	body {
+		background-color: lightgreen;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.leftside,
 	.rightside {
@@ -39,12 +55,9 @@ body {
 	}
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 1000px) {
 	body {
-		background-color: lightblue;
-	}
-	.nav-container {
-		height: 180px;
+		background-color: lightseagreen;
 	}
 }
 .section1 {
@@ -128,6 +141,7 @@ li a:hover {
 .inline-block {
 	display: inline-block;
 	padding-right: 1.5%;
+	padding-left: 1.5%;
 }
 
 .intro_descriptor {
@@ -152,8 +166,7 @@ li a:hover {
 }
 
 .socialMediaIcons {
-	padding-bottom: 5%;
-	border-bottom: 1px solid rgb(219, 219, 219);
+	padding-top: 10%;
 }
 
 .newSectionText {
