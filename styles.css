@@ -312,6 +312,14 @@ li a:hover {
 	width: 100%;
 	padding-bottom: 2%;
 }
+
+.profilePicture1 {
+	align-self: center;
+	height: auto;
+	width: 100%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+}
 .inline-block {
 	display: inline-block;
 	padding-right: 1.5%;
