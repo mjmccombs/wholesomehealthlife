@@ -36,7 +36,21 @@ body {
 	font-size: 150%;
 }
 
-@media only screen and (min-width: 70px) {
+@media only screen and (min-width: 400px) {
+	body {
+		background-color: lightslategray;
+		text-align: center;
+		margin-right: 10%;
+		margin-left: 10%;
+		align-self: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 700px) {
 	body {
 		background-color: lightgoldenrodyellow;
 		text-align: center;
@@ -48,13 +62,6 @@ body {
 		justify-content: center;
 		align-items: center;
 	}
-
-	/* .leftside2 {
-		background-color: lightgoldenrodyellow;
-	}
-	.rightside2 {
-		background-color: lightgoldenrodyellow;
-	} */
 }
 
 @media only screen and (min-width: 800px) {
