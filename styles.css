@@ -8,6 +8,8 @@ body {
 	margin-right: 10%;
 	margin-left: 10%;
 	align-self: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .row {
