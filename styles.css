@@ -8,7 +8,6 @@
 		background-color: lightcoral;
 		margin-right: 10%;
 		margin-left: 10%;
-		align-self: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -16,13 +15,13 @@
 	}
 
 	#firstSection {
-		text-align: "center";
-		padding: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.row {
 		border-bottom: 1px solid rgb(219, 219, 219);
-		display: flex;
 	}
 
 	.siteTitle {
@@ -30,14 +29,6 @@
 		text-transform: uppercase;
 		letter-spacing: 15px;
 		font-size: 150%;
-	}
-	.section1 {
-		padding-left: 10%;
-		padding-right: 10%;
-	}
-
-	.section2 {
-		background-color: #f9f9f9;
 	}
 
 	ul {
@@ -86,13 +77,10 @@
 
 	.introText {
 		font-size: 500%;
-		padding-top: 3%;
-		padding-bottom: 0.5%;
 		font-family: "Hind", sans-serif;
 		font-weight: 500;
 		font-style: bold;
 		color: rgb(0, 0, 0);
-		display: "inline-block";
 	}
 
 	.introText2 {
@@ -100,8 +88,6 @@
 		font-style: normal;
 		letter-spacing: 0.016666666666666666rem;
 		color: rgb(77, 77, 77);
-		padding-bottom: 2%;
-		display: "inline-block";
 	}
 
 	.profilePicture {
@@ -111,23 +97,16 @@
 	}
 
 	.profilePicture1 {
-		align-self: center;
 		height: auto;
 		width: 100%;
-		padding-bottom: 5%;
-		padding-top: 5%;
-		padding-left: 5%;
-	}
-	.inline-block {
-		display: inline-block;
-		padding-right: 1.5%;
-		padding-left: 1.5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 8%;
 	}
 
-	.intro_descriptor {
-		font-family: "Hind", sans-serif;
-		font-style: italic;
-		padding-bottom: 1.5%;
+	.inline-block {
+		display: inline-block;
 	}
 
 	.twitch_container {
@@ -145,15 +124,12 @@
 	}
 
 	.newSectionText {
-		top: 90px;
-		position: relative;
-		font-size: 90%;
+		padding-top: 8%;
 		line-height: 1.1111111111111112rem;
 		letter-spacing: 0.12222222222222223rem;
 		font-family: "Hind", sans-serif;
 		font-weight: 400;
 		font-style: normal;
-		height: 200px;
 	}
 
 	.leftside2,
