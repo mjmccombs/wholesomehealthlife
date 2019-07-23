@@ -23,6 +23,17 @@
 		/>
 		<link rel="stylesheet" href="./styles.css" />
 		<script async src="./javascript/index.js"></script>
+		<script type="text/javascript">
+			var feed = new Instafeed({
+				get: 'user',
+				userId: '9162789484',
+				clientId: 'f6638cead2d34f28b60f03ed48e85c62',
+				// accessID: 'stillNeedToGetThis'
+			
+			});
+			feed.run();
+		</script>
+			  
 		<style>
 				img.alldevices{
 					margin: 0 auto;
@@ -51,7 +62,7 @@
 		<div class="row no-gutters">
 			<div id="firstSection" class="col-md-6 no-gutters">
 				<div id="firstSectionSub1"
-					class="leftside d-flex justify-content-center align-items-center"
+					
 				><div>
 					<div id="firstSectionSub2" class="introText">
 							Hi, I'm Matt.
@@ -88,7 +99,7 @@
 						>
 							<img
 								class="profilePicture"
-								src="./images/crestpropertiessize3.png"
+								src="./images/clevelandRoomsForRent.png"
 							/>
 						</a>
 						<div class="introText2">
@@ -110,7 +121,7 @@
 						>
 							<img
 								class="profilePicture"
-								src="./images/crestpropertiessize3.png"
+								src="./images/recentWorkCrestProperties.png"
 							/>
 						</a>
 						<div class="introText2">
@@ -133,11 +144,11 @@
 						<a
 							href="http://clevelandroomsforrent.netlify.com"
 							target="_blank"
-						>
-							<img
+						><div id="instafeed"></div>
+							<!-- <img
 								class="profilePicture"
 								src="./images/newCleRooms4rent.png"
-							/>
+							/> -->
 						</a>
 						<div class="introText2">
 							<br />

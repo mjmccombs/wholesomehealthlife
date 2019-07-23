@@ -16,5 +16,8 @@
 	"bugs": {
 		"url": "https://github.com/mjmccombs/wholesomehealthlife/issues"
 	},
-	"homepage": "https://github.com/mjmccombs/wholesomehealthlife#readme"
+	"homepage": "https://github.com/mjmccombs/wholesomehealthlife#readme",
+	"dependencies": {
+		"instafeed.js": "^1.4.1"
+	}
 }
